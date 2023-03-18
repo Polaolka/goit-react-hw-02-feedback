@@ -1,0 +1,16 @@
+.section {
+    margin: 10px auto 10px;
+    padding: 10px 20px 10px;
+    width: 400px;
+    overflow: hidden;
+    background-color:rgb(215, 242, 249);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(90, 99, 104, 0.377);
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(50, 55, 75);
+    font-size: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,18 @@
+
+.subtitle {
+    font-size: 24px;
+    color: rgb(50, 55, 75);
+}
+ul {
+    list-style: none;
+}
+
+.buttonWrapper {
+    display: flex;
+    gap: 20px;
+}
+.info {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+

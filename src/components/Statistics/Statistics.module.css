@@ -1,0 +1,9 @@
+.info {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.value {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bolder;
+}
