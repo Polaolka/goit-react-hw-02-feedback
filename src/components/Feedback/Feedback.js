@@ -3,6 +3,7 @@ import css from '../Feedback/Feedback.module.css';
 import { Statistics } from '../Statistics/Statistics';
 import { Section } from '../Section/Section';
 import { FeedbackOptions } from '../FeedbackOptions/FeedbackOptions';
+import { Notification } from '../Notification/Notification';
 
 const OPTIONS = ["good", "neutral", "bad"];
 
@@ -55,7 +56,7 @@ export class Feedback extends Component {
               persent={this.countPositiveFeedbackPercentage()}
             />
           ) : (
-            <p className={css.info}>No feedback given</p>
+            <Notification/>
           )}
         </Section>
       </div>
